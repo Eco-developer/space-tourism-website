@@ -1,0 +1,19 @@
+.home__container {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url("../../assets/home/background-home-mobile.jpg"); 
+    background-size: cover;
+    background-position: center center;
+}
+
+@media only screen and (min-width: 480px){
+    .home__container { 
+        background-image: url("../../assets/home/background-home-tablet.jpg"); 
+    }
+}
+
+@media only screen and (min-width: 800px){
+    .home__container { 
+        background-image: url("../../assets/home/background-home-desktop.jpg"); 
+    }
+}
