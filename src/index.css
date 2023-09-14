@@ -6,8 +6,126 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.heading__one {
+  font-family: Bellefair Regular;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 80px;
+  color: #FFF;
+  margin: 0;
+}
+.heading__two {
+  font-family: Bellefair Regular;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #FFF;
+  margin: 0;
+}
+.heading__three {
+  font-family: Bellefair Regular;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #FFF;
+  margin: 0;
+}
+.heading__four {
+  font-family: Bellefair Regular;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #FFF;
+  margin: 0;
+}
+.heading__five {
+  font-family: Barlow Condensed Regular;
+  letter-spacing: 4.75;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #D0D6f9;
+  margin: 0;
+}
+.subheading__one {
+  font-family: Bellefair Regular;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #FFF;
+  margin: 0;
+}
+.subheading__two {
+  letter-spacing: 2.7;
+  font-family: Barlow Condensed Regular;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #D0D6f9;
+  margin: 0;
+}
+.body__text {
+  font-family: Barlow Condensed Regular;
+  color: #D0D6f9;
+  margin: 0;
+  text-align: center;
+}
+.page__title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+@media only screen and (min-width: 600px){ 
+  .heading__one {
+    font-size: 100px;
+  }
+  .heading__two {
+    font-size: 50px;
+  }
+  .heading__three {
+    font-size: 38px;
+  } 
+  .heading__four {
+    font-size: 26px;
+  }
+  .heading__five {
+    font-size: 20px;
+  }
+  .subheading__one {
+    font-size: 20px;
+  }
+  .subheading__two {
+    font-size: 14px;
+  }
+  .body__text {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1000px){
+  .page__title {
+    text-align: left;
+  }
+  .heading__one {
+    font-size: 150px;
+  }
+  .heading__two {
+    font-size: 100px;
+  }
+  .heading__three {
+    font-size: 56px;
+  } 
+  .heading__four {
+    font-size: 32px;
+  }
+  .heading__five {
+    font-size: 28px;
+  }
+  .subheading__one {
+    font-size: 28px;
+  }
+  .body__text {
+    text-align: justify;
+  }
 }

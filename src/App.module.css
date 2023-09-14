@@ -9,3 +9,15 @@
 .app::-webkit-scrollbar {
   display: none;
 }
+.logo {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+  .logo {
+    top: 38px;
+    left: 38px;
+  }
+}
