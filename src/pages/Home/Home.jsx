@@ -1,6 +1,11 @@
 import styles from "./Home.module.css";
+import { useNavigate } from "react-router-dom"
 
 export const Home = () => {
+    const navigate = useNavigate();
+    const onGoToDestination = () => {
+        navigate("/destination")
+    }
     return (
         <div className={styles.home__container}>
             <div className={styles.home_info__container}>
@@ -19,7 +24,10 @@ export const Home = () => {
   because we’ll give you a truly out of this world experience!
                     </p>
                 </div>
-                <div className={styles.home_info__button}>
+                <div 
+                    className={styles.home_info__button} 
+                    onClick={onGoToDestination}
+                >
                     <h2>
                         EXPLORE
                     </h2>
