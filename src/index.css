@@ -77,6 +77,9 @@ code {
 }
 
 @media only screen and (min-width: 600px){ 
+  .page__title {
+    text-align: left;
+  }
   .heading__one {
     font-size: 100px;
   }
@@ -104,9 +107,6 @@ code {
 }
 
 @media only screen and (min-width: 1000px){
-  .page__title {
-    text-align: left;
-  }
   .heading__one {
     font-size: 150px;
   }
