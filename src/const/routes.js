@@ -1,3 +1,4 @@
+import App from '../App';
 import { createBrowserRouter } from 'react-router-dom';
 import {    
     Home,
@@ -5,8 +6,8 @@ import {
     Crew,
     Technology,
     ErrorPage
-} from "../pages"
-import App from '../App'
+} from "../pages";
+import data from "../data.json";
 
 export const router = createBrowserRouter([{
     path: '/',
@@ -19,15 +20,15 @@ export const router = createBrowserRouter([{
         },
         {
             path: "destination",
-            element: <Destination/>,
+            element: <Destination data={data.destinations}/>,
         },
         {
             path: "crew",
-            element: <Crew/>,
+            element: <Crew data={data.crew}/>,
         },
         {
             path: "technology",
-            element: <Technology/>,
+            element: <Technology data={data.technology}/>,
         }
     ]
 }])
