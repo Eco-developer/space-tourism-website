@@ -1,0 +1,36 @@
+.crew_nav__container {
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.crew_nav__content {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 25px 0;
+    width: 150px;
+}
+.nav_dot {
+    width: 15px;
+    height: 15px;
+    background-color: #FFF;
+    border-radius: 50%;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.active_item {
+    opacity: 1;
+}
+.nav_dot:hover {
+    opacity: 0.75;
+}
+.active_item:hover {
+    opacity: 1;
+}
+
+@media only screen and (min-width: 1000px){ 
+    .crew_nav__container {
+        place-items: baseline;
+    }
+}
