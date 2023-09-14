@@ -6,13 +6,13 @@
     background-position: center center;
 }
 
-@media only screen and (min-width: 480px){
+@media only screen and (min-width: 600px){
     .technology__container { 
         background-image: url("../../assets/technology/background-technology-tablet.jpg"); 
     }
 }
 
-@media only screen and (min-width: 800px){
+@media only screen and (min-width: 1000px){
     .technology__container { 
         background-image: url("../../assets/technology/background-technology-desktop.jpg"); 
     }

@@ -23,7 +23,7 @@
     font-size: 60px
 }
 
-@media only screen and (min-width: 480px){
+@media only screen and (min-width: 600px){
     .error__container { 
         background-image: url("../../assets/home/background-home-tablet.jpg"); 
     }
@@ -35,7 +35,7 @@
     }
 }
 
-@media only screen and (min-width: 800px){
+@media only screen and (min-width: 1000px){
     .error__container { 
         background-image: url("../../assets/home/background-home-desktop.jpg"); 
     }

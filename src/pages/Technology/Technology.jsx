@@ -1,11 +1,9 @@
 import styles from "./Technology.module.css";
 
-const Technology = () => {
+export const Technology = ({data=[]}) => {
     return (
         <div className={styles.technology__container}>
             tecnology
         </div>
     )
 }
-
-export default Technology;
