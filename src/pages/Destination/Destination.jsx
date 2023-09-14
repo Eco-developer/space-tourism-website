@@ -1,8 +1,8 @@
 import { Image } from "../../components/Image/Image";
 import { DestinationNav } from "../../containers/DestinationNav/DestinationNav";
+import { StatsContainer } from "../../containers/StatsContainer/StatsContainer";
 import { useState } from "react";
 import styles from "./Destination.module.css";
-import { StatsContainer } from "../../containers/StatsContainer/StatsContainer";
 
 export const Destination = ({data=[]}) => {
     const [position, setPosition] = useState(0);

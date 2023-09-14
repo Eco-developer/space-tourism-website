@@ -58,9 +58,6 @@
     .crew_info__container{
         flex-direction: column-reverse;
     }
-    .crew__title {
-        text-align: left;
-    }
     .crew_info__side {
         flex-direction: column-reverse;
     }

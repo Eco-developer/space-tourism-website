@@ -1,14 +1,17 @@
 import { Image } from "../../components/Image/Image";
 import { CrewNav } from "../../containers/CrewNav/CrewNav";
-import { useState } from "react";
+import { useInterval } from "../../hooks";
 import styles from "./Crew.module.css";
 
 export const Crew = ({data=[]}) => {
-    const [position, setPosition] = useState(0);
+    const {
+        position,
+        setPosition,
+    } = useInterval(data.length);
     return (
         <div className={styles.crew__container}>
             <div className={styles.crew__content}>
-                <div className={`${styles.crew__title} page__title`}>
+                <div className="page__title">
                     <h2 className="heading__four">
                         02 meet your crew
                     </h2>
